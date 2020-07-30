@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户注册-购酒网</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/reg_com.css">
+    <link rel="stylesheet" href="./icon/iconfont.css">
+    <link rel="stylesheet" href="./css/register.css">
+    <link rel="shortcut icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="./css/jquery.idcode.css">
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="./js/jquery.idcode.js"></script>
+    <script src="./js/layer/layer.js"></script>
+    <script src="./js/validation/jquery.validate.min.js"></script>
+    <script src="./js/register.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="headerWrap">
+            <a href="index.html" class="logo">
+                <img src="./images/logo1.jpg" alt="">
+            </a>
+            <div class="login_r">
+                您好，欢迎光临购酒网！&nbsp;
+                <a class="logo_help" href="#"><em class="iconfont icon-shezhi"></em>&nbsp;帮助</a>
+                <a class="logo_server" href="#"><em class="iconfont icon-wode"></em>&nbsp;在线客服</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="mainWrap">
+            <h2>购酒网会员注册
+                <hr>
+            </h2>
+            <div class="regBox">
+                <div class="mgnAuto">
+                    <form>
+                        <div class="textBox">
+                            <span>账号:</span>
+                            <input type="text" name="uname">
+                        </div>
+                        <div class="textBox">
+                            <span>密码:</span>
+                            <input id="upwd" type="password" name="upwd">
+                        </div>
+                        <div class="textBox">
+                            <span>确认密码:</span>
+                            <input type="password" name="upwdcheck">
+                        </div>
+                        <div class="textBox">
+                            <span>验证码:</span>
+                            <input type="text" id="Txtidcode" class="txtVerification"><span id="idcode"></span>
+                        </div>
+                        <button id="regBtn">注册</button>
+                        <a href="login.html" class="toLogin">去登录</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="links">
+            <a href="#">关于我们</a><span>|</span>
+            <a href="#">联系他们</a><span>|</span>
+            <a href="#">友情链接</a><span>|</span>
+            <a href="#">隐私声明</a>
+        </div>
+        <div class="copyRight">Copyright©2009-2020 gjw.com, All Rights Reserved 购酒网(上海)供应链管理有限公司 版权所有</div>
+    </footer>
+</body>
+
+</html>

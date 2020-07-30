@@ -1,0 +1,170 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1062",
+      "name": "酒",
+      "font_class": "jiu",
+      "unicode": "f0085",
+      "unicode_decimal": 983173
+    },
+    {
+      "icon_id": "367945",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "955907",
+      "name": "啤酒",
+      "font_class": "pijiu",
+      "unicode": "e665",
+      "unicode_decimal": 58981
+    },
+    {
+      "icon_id": "993853",
+      "name": "客服",
+      "font_class": "kefu",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "1048617",
+      "name": "赞",
+      "font_class": "zan",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "1385721",
+      "name": "免",
+      "font_class": "mian",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "1653807",
+      "name": "酒",
+      "font_class": "jiu1",
+      "unicode": "e56a",
+      "unicode_decimal": 58730
+    },
+    {
+      "icon_id": "1832061",
+      "name": "回到顶部",
+      "font_class": "icon_huaban",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "2470740",
+      "name": "锁",
+      "font_class": "suo",
+      "unicode": "e502",
+      "unicode_decimal": 58626
+    },
+    {
+      "icon_id": "2936003",
+      "name": "白酒",
+      "font_class": "baijiu",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "2950334",
+      "name": "真",
+      "font_class": "zhen",
+      "unicode": "e915",
+      "unicode_decimal": 59669
+    },
+    {
+      "icon_id": "4274148",
+      "name": "心",
+      "font_class": "xin",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "5158138",
+      "name": "酒",
+      "font_class": "icon-test",
+      "unicode": "e661",
+      "unicode_decimal": 58977
+    },
+    {
+      "icon_id": "5952788",
+      "name": "用户反馈",
+      "font_class": "yonghufankui",
+      "unicode": "e675",
+      "unicode_decimal": 58997
+    },
+    {
+      "icon_id": "6469976",
+      "name": "收 藏 ",
+      "font_class": "shoucang",
+      "unicode": "e58b",
+      "unicode_decimal": 58763
+    },
+    {
+      "icon_id": "6990093",
+      "name": "赔",
+      "font_class": "pei",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "7479463",
+      "name": "清酒",
+      "font_class": "qingjiu",
+      "unicode": "e50a",
+      "unicode_decimal": 58634
+    },
+    {
+      "icon_id": "8908113",
+      "name": "设 置",
+      "font_class": "shezhi",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "9096400",
+      "name": "我 的",
+      "font_class": "wode",
+      "unicode": "e503",
+      "unicode_decimal": 58627
+    },
+    {
+      "icon_id": "12613925",
+      "name": "铃铛",
+      "font_class": "lingdang",
+      "unicode": "e501",
+      "unicode_decimal": 58625
+    },
+    {
+      "icon_id": "13329836",
+      "name": "码",
+      "font_class": "ma",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "13332091",
+      "name": "券",
+      "font_class": "quan",
+      "unicode": "e71c",
+      "unicode_decimal": 59164
+    },
+    {
+      "icon_id": "14436855",
+      "name": "购物 车",
+      "font_class": "gouwuche",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    }
+  ]
+}

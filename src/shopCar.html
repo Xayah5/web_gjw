@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>购物车-购酒网</title>
+    <link rel="shortcut icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/shopCar.css">
+    <link rel="stylesheet" href="./icon/iconfont.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="topBar">
+            <div class="topBarFl">
+                <ul>
+                    <li id="userCon">
+                        <a href="login.html">登录</a>
+                        <a href="register.html">注册</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="miniMenu">
+                <ul>
+                    <li>
+                        <a href="shopCar.html" id="shopNum">购物车<span>0</span>种</a>
+                    </li>
+                    <li>
+                        <a href="#">我的订单</a>
+                    </li>
+                    <li>
+                        <a href="#">用户中心</a>
+                    </li>
+                    <li>
+                        <a href="#">帮助</a>
+                    </li>
+                    <li>
+                        <a href="#">提建议</a>
+                    </li>
+                    <li>
+                        <a href="#">微博</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="global_body">
+        <div class="cart_tit">
+            <h1>我的购物车</h1>
+            <div class="shop_area">
+                单笔订单满100元免运费（香港、澳门、台湾、钓鱼岛地区和拆分订单除外）
+            </div>
+        </div>
+        <div class="orderInfo">
+            <div class="listHead">
+                <div class="col_check">
+                    <input type="checkbox">全选
+                </div>
+                <div class="col_name">商品</div>
+                <div class="col_price">单价</div>
+                <div class="col_discount">优惠</div>
+                <div class="col_num">数量</div>
+                <div class="col_total">小计</div>
+                <div class="col_action">操作</div>
+            </div>
+            <div class="listBody">
+
+                <div class="yhq">
+                    电子券在‘去结算’页面中使用
+                </div>
+                <ul>
+                    <li class="total_area">
+                        <span class="btn_all">
+                           <input type="checkbox">全选
+                       </span>
+                        <span class="delepro">删除选中商品</span>
+                        <span class="cearpro">清空购物车</span>
+                        <b>应付商品金额：<span>￥<em id="totalMoney">0</em></span></b>
+                    </li>
+                </ul>
+            </div>
+            <div class="cart_btn">
+                <a href="index.html" class="gono_btn">继续购物</a>
+                <span class="tip">商品价格和库存请以订单提交时为准</span>
+                <a href="" class="check_btn">去结算</a>
+            </div>
+        </div>
+    </div>
+    <div class="trinket">
+        <div class="trinket_tit">
+            <span>你可能还需要</span>
+        </div>
+        <div class="trinket_con">
+            <ul>
+                <li class="goods_pic"><img src="./images/ia_300000001.jpg" alt=""></li>
+                <li class="goods_name">
+                    <a href="#">53度 茅台 迎宾酒（ 2018年产 ） 500ml*6瓶【整箱装】</a>
+                </li>
+                <li class="goods_price">￥798</li>
+                <li class="goods_btn">
+                    <a href="javascript:void(0)"><em class="iconfont icon-gouwuche"></em>&nbsp;放入购物车</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="goods_pic"><img src="./images/ia_300000311.jpg" alt=""></li>
+                <li class="goods_name">
+                    <a href="#">52度 小糊涂仙 500ml</a>
+                </li>
+                <li class="goods_price">￥148</li>
+                <li class="goods_btn">
+                    <a href="javascript:void(0)"><em class="iconfont icon-gouwuche"></em>&nbsp;放入购物车</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="goods_pic"><img src="./images/ia_300000312.jpg" alt=""></li>
+                <li class="goods_name">
+                    <a href="#">53度 茅台 赖茅（传承）蓝色 （ 2019年产 ）500ml</a>
+                </li>
+                <li class="goods_price">￥319</li>
+                <li class="goods_btn">
+                    <a href="javascript:void(0)"><em class="iconfont icon-gouwuche"></em>&nbsp;放入购物车</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="goods_pic"><img src="./images/ia_300000307.jpg" alt=""></li>
+                <li class="goods_name">
+                    <a href="#">52度 剑南春 天益老号珍藏级 500ml</a>
+                </li>
+                <li class="goods_price">￥599</li>
+                <li class="goods_btn">
+                    <a href="javascript:void(0)"><em class="iconfont icon-gouwuche"></em>&nbsp;放入购物车</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="goods_pic"><img src="./images/ia_300000000.jpg" alt=""></li>
+                <li class="goods_name">
+                    <a href="#">53度 茅台王子 酱香经典 （ 2019年产 ） 500ml</a>
+                </li>
+                <li class="goods_price">￥328</li>
+                <li class="goods_btn">
+                    <a href="javascript:void(0)"><em class="iconfont icon-gouwuche"></em>&nbsp;放入购物车</a>
+                </li>
+            </ul>
+            <ul class="clearBorder">
+                <li class="goods_pic"><img src="./images/ia_300000303.jpg" alt=""></li>
+                <li class="goods_name">
+                    <a href="#">53度 五粮液股份 永福酱酒（老酱）（2010-2012年产）500ml</a>
+                </li>
+                <li class="goods_price">￥499</li>
+                <li class="goods_btn">
+                    <a href="javascript:void(0)"><em class="iconfont icon-gouwuche"></em>&nbsp;放入购物车</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="goods_pic"><img src="./images/ia_300000314.jpg" alt=""></li>
+                <li class="goods_name">
+                    <a href="#">42度 扳倒井 福樽 （2012年产）480ml</a>
+                </li>
+                <li class="goods_price">￥79
+                    <li class="goods_btn">
+                        <a href="javascript:void(0)"><em class="iconfont icon-gouwuche"></em>&nbsp;放入购物车</a>
+                    </li>
+            </ul>
+            <ul>
+                <li class="goods_pic"><img src="./images/ia_300000011.jpg" alt=""></li>
+                <li class="goods_name">
+                    <a href="#">52度 剑南春 500ml</a>
+                </li>
+                <li class="goods_price">￥429</li>
+                <li class="goods_btn">
+                    <a href="javascript:void(0)"><em class="iconfont icon-gouwuche"></em>&nbsp;放入购物车</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="goods_pic"><img src="./images/ia_300000313.jpg" alt=""></li>
+                <li class="goods_name">
+                    <a href="#">43度 茅台飞天酒（带杯）（ 2019年产）500ml</a>
+                </li>
+                <li class="goods_price">￥909</li>
+                <li class="goods_btn">
+                    <a href="javascript:void(0)"><em class="iconfont icon-gouwuche"></em>&nbsp;放入购物车</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="goods_pic"><img src="./images/ia_300000094.jpg" alt=""></li>
+                <li class="goods_name">
+                    <a href="#">53度 茅台 仁酒（2019年产）500ml</a>
+                </li>
+                <li class="goods_price">￥468</li>
+                <li class="goods_btn">
+                    <a href="javascript:void(0)"><em class="iconfont icon-gouwuche"></em>&nbsp;放入购物车</a>
+                </li>
+            </ul>
+            <ul>
+                <li class="goods_pic"><img src="./images/ia_300000305.jpg" alt=""></li>
+                <li class="goods_name">
+                    <a href="#">53度 习酒 窖藏1998 500ml</a>
+                </li>
+                <li class="goods_price">￥498</li>
+                <li class="goods_btn">
+                    <a href="javascript:void(0)"><em class="iconfont icon-gouwuche"></em>&nbsp;放入购物车</a>
+                </li>
+            </ul>
+            <ul class="clearBorder">
+                <li class="goods_pic"><img src="./images/ia_300000004.jpg" alt=""></li>
+                <li class="goods_name">
+                    <a href="#">51度 茅台 汉酱酒 （ 2018年产 ）500ml</a>
+                </li>
+                <li class="goods_price">￥498</li>
+                <li class="goods_btn">
+                    <a href="javascript:void(0)"><em class="iconfont icon-gouwuche"></em>&nbsp;放入购物车</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-wrap">
+            <img src="./images/gwcImg2.gif" alt="">
+            <div class="links">
+                <a href="#">关于我们</a><span>|</span>
+                <a href="#">联系他们</a><span>|</span>
+                <a href="#">友情链接</a><span>|</span>
+                <a href="#">隐私声明</a>
+            </div>
+            <div class="copyRight">Copyright©2009-2020 gjw.com, All Rights Reserved 购酒网(上海)供应链管理有限公司 版权所有</div>
+            <div class="authentication">
+                <a href="#" class="beian"></a>
+                <a href="#" class="depart"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="./js/jquery-3.2.1.min.js"></script>
+<script src="./js/shopCar.js"></script>
+
+</html>

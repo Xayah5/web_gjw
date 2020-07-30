@@ -1,0 +1,145 @@
+[{
+        "id": "1",
+        "style": "醇香记忆",
+        "name": "53度茅台贵州大曲酒70年代(2020年产)500ml",
+        "price": 438,
+        "goodsImg": [
+            "./images/daqujiu1.jpg",
+            "./images/daqujiu2.jpg",
+            "./images/daqujiu3.jpg",
+            "./images/daqujiu4.jpg",
+            "./images/daqujiu5.jpg",
+            "./images/daqujiu6.jpg",
+            "./images/daqujiu7.jpg",
+            "./images/daqujiu8.jpg",
+            "./images/daqujiu9.jpg"
+        ],
+        "img": "./images/ia_300000090.jpg"
+    },
+    {
+        "id": "2",
+        "style": "戊戌狗年",
+        "name": "53度茅台王子戊戌狗年酒(2018年产)500ml",
+        "price": 588,
+        "goodsImg": [
+            "./images/gounianjiu1.jpg",
+            "./images/gounianjiu2.jpg",
+            "./images/gounianjiu3.jpg",
+            "./images/gounianjiu4.jpg",
+            "./images/gounianjiu5.jpg",
+            "./images/gounianjiu6.jpg",
+            "./images/gounianjiu7.jpg",
+            "./images/gounianjiu8.jpg",
+            "./images/gounianjiu9.jpg"
+        ],
+        "img": "./images/ia_300000091.jpg"
+    },
+    {
+        "id": "3",
+        "style": "茅台迎宾",
+        "name": "43度茅台迎宾（中国红）（2019年产）500ml",
+        "price": 899,
+        "goodsImg": [
+            "./images/zhongguohong1.jpg",
+            "./images/zhongguohong2.jpg",
+            "./images/zhongguohong3.jpg",
+            "./images/zhongguohong4.jpg",
+            "./images/zhongguohong5.jpg",
+            "./images/zhongguohong6.jpg",
+            "./images/zhongguohong7.jpg",
+            "./images/zhongguohong8.jpg",
+            "./images/zhongguohong9.jpg"
+        ],
+        "img": "./images/ia_300000092.jpg"
+    },
+    {
+        "id": "4",
+        "style": "精心挑选",
+        "name": "53度茅台国博十二生肖",
+        "price": 4999,
+        "goodsImg": [
+            "./images/shengxiaojiu1.jpg",
+            "./images/shengxiaojiu2.jpg",
+            "./images/shengxiaojiu3.jpg",
+            "./images/shengxiaojiu4.jpg",
+            "./images/shengxiaojiu5.jpg",
+            "./images/shengxiaojiu1.jpg",
+            "./images/shengxiaojiu2.jpg",
+            "./images/shengxiaojiu3.jpg",
+            "./images/shengxiaojiu4.jpg"
+        ],
+        "img": "./images/ia_300000093.jpg"
+    },
+    {
+        "id": "5",
+        "style": "仁者天地",
+        "name": "53度茅台仁酒（2019年产）500ml",
+        "price": 468,
+        "goodsImg": [
+            "./images/renjiu1.png",
+            "./images/renjiu2.png",
+            "./images/renjiu3.png",
+            "./images/renjiu4.png",
+            "./images/renjiu5.png",
+            "./images/renjiu_d2.jpg",
+            "./images/renjiu_d3.jpg",
+            "./images/renjiu_d4.jpg",
+            "./images/renjiu_d1.jpg"
+        ],
+        "img": "./images/ia_300000094.jpg"
+    },
+    {
+        "id": "6",
+        "style": "下单立减",
+        "name": "53度茅台赖茅金樽（2018年产）500ml",
+        "price": 419,
+        "goodsImg": [
+            "./images/laimao1.jpg",
+            "./images/laimao2.jpg",
+            "./images/laimao3.jpg",
+            "./images/laimao4.jpg",
+            "./images/laimao5.jpg",
+            "./images/laimao6.jpg",
+            "./images/laimao7.jpg",
+            "./images/laimao8.jpg",
+            "./images/laimao9.jpg"
+        ],
+        "img": "./images/ia_300000095.jpg"
+    },
+    {
+        "id": "7",
+        "style": "优雅细腻",
+        "name": "53度茅台王子酒金王子（2019年产） 500ml",
+        "price": 298,
+        "goodsImg": [
+            "./images/wangzi1.jpg",
+            "./images/wangzi2.jpg",
+            "./images/wangzi3.jpg",
+            "./images/wangzi4.jpg",
+            "./images/wangzi5.jpg",
+            "./images/wangzi6.jpg",
+            "./images/wangzi7.jpg",
+            "./images/wangzi8.jpg",
+            "./images/wangzi9.jpg"
+        ],
+        "img": "./images/ia_300000096.jpg"
+    },
+    {
+        "id": "8",
+        "style": "下单立减",
+        "name": "53度茅台仁酒丹青殊荣（2017年产）500ml*6瓶【整箱装】",
+        "price": 3088,
+        "goodsImg": [
+            "./images/shurong1.jpg",
+            "./images/shurong2.jpg",
+            "./images/shurong3.jpg",
+            "./images/shurong4.jpg",
+            "./images/shurong5.jpg",
+            "./images/shurong6.jpg",
+            "./images/shurong7.jpg",
+            "./images/shurong8.jpg",
+            "./images/shurong9.jpg"
+        ],
+        "img": "./images/ia_300000097.jpg"
+    }
+]

@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商品详情-购酒网</title>
+    <link rel="shortcut icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./icon/iconfont.css">
+    <link rel="stylesheet" href="./css/goods.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="header-wrap">
+            <div class="focusbtn">
+                <img src="./images/ia_300000000.png" alt="">
+                <span>购酒网</span>
+                <em> ﹀</em>
+                <div class="focucImg"><img src="./images/ia_300000154.png" alt=""></div>
+            </div>
+            <div class="navBox">
+                <ul>
+                    <li id="userCon">Hi,请&nbsp;&nbsp;&nbsp;<a href="login.html">登录</a>&nbsp;/&nbsp;<a href="register.html">注册&nbsp;</a>
+                    </li>
+                    <li><a href="javascript:void(0)">我的订单</a></li>
+                    <li><a href="javascript:void(0)">个人中心</a></li>
+                    <li><a href="javascript:void(0)">在线客服</a></li>
+                    <li><a href="javascript:void(0)">购酒公告</a></li>
+                    <li><a href="javascript:void(0)">帮助</a></li>
+                    <li><a href="javascript:void(0)">提意见</a></li>
+                    <li>
+                        <a href="javascript:void(0)">
+                            <em>☏</em>400-722-1919
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- 会员活动 -->
+    <div class="topAd_bg">
+        <div class="topAd">
+            <a href="javascript:void(0)">
+                <img src="./images/ia_300000002.jpg" alt="">
+            </a>
+        </div>
+    </div>
+    <!-- 搜索 -->
+    <div class="topItem_bg">
+        <div class="topItem">
+            <a href="index.html" class="topLogo"><img src="./images/ia_300000003.jpg" alt=""></a>
+            <div class="topGif">
+                <a href="">
+                    <img src="./images/ia_300000004.gif" alt="">
+                </a>
+            </div>
+            <div class="topSearch">
+                <div class="clearfix">
+                    <input type="text" placeholder="茅台飞天" id="searchTxt">
+                    <span href="javascript:void(0)" id="searchBtn">搜索</span>
+                </div>
+                <div class="topTags">
+                    <a href="javascript:void(0)">茅台</a>
+                    <a href="javascript:void(0)">五粮液</a>
+                    <a href="javascript:void(0)">拉菲</a>
+                    <a href="javascript:void(0)">奔富</a>
+                    <a href="javascript:void(0)">黄尾袋鼠</a>
+                    <a href="javascript:void(0)">剑南春</a>
+                    <a href="javascript:void(0)">泸州老窖</a>
+                </div>
+            </div>
+            <div class="toShopCar">
+                <div class="shopCarBox">
+                    <a href="shopCar.html">去购物车结算</a>>
+                    <div class="itemNum">0</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 导航 -->
+    <div class="itemNav_bg">
+        <div class="itemNav">
+            <ul class="itemList">
+                <li id="listNav"><a href="javascript:void(0)">☰&nbsp;全部分类</a>
+                    <ul class="qbfl-list">
+                        <li class="yjxg-on"><a href="javascript:void(0)"><i class="iconfont icon-xin"></i> 一键选购<span>&gt;</span></a>
+                            <div class="yjxgbox sec-box">
+                                <div class="box-lt">
+                                    <div class="list-box long">
+                                        <div class="list-tit">一键选购</div>
+                                        <div class="list-msg" id="list-msg">
+                                            <a href="javascript:void(0)" class="clearBorder color3">特卖会</a>
+                                            <a href="javascript:void(0)">高端收藏</a>
+                                            <a href="javascript:void(0)" class="color1">大坛酒专场</a>
+                                            <a href="javascript:void(0)" class="color1">整箱购</a>
+                                            <a href="javascript:void(0)" class="color2">婚宴酒</a>
+                                            <a href="javascript:void(0)" class="color2">年份老酒</a>
+                                        </div>
+                                    </div>
+                                    <div class="list-box long">
+                                        <div class="list-tit">红酒洋酒专场</div>
+                                        <div class="list-msg" id="list-msg">
+                                            <a href="javascript:void(0)" class="clearBorder">洋酒钜惠</a>
+                                            <a href="javascript:void(0)" class="color3">名庄直采</a>
+                                            <a href="javascript:void(0)" class="color1">精品酒</a>
+                                        </div>
+                                    </div>
+                                    <div class="list-box short">
+                                        <div class="list-tit">精选会场</div>
+                                        <div class="list-msg" id="list-msg">
+                                            <a href="javascript:void(0)" class="clearBorder">新品尝鲜</a>
+                                            <a href="javascript:void(0)" class="color1">聚餐用酒</a>
+                                            <a href="javascript:void(0)" class="color1">清仓特卖</a>
+                                            <a href="javascript:void(0)" class="color1">居酒屋</a>
+                                        </div>
+                                    </div>
+                                    <div class="list-box short">
+                                        <div class="list-tit">特色专区</div>
+                                        <div class="list-msg" id="list-msg">
+                                            <a href="javascript:void(0)" class="clearBorder clolor3">舒心酱酒</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box-rt">
+                                    <div class="itemicon-box">
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000006.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000007.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000008.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000009.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000010.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000021.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000029.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000030.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000039.jpg" alt=""></a>
+                                    </div>
+                                    <div class="itemicon-img"><img src="./images/ia_300000015.jpg" alt=""></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="bj-on"><a href="javascript:void(0)"><i class="iconfont icon-baijiu"></i> 白酒<span>&gt;</span></a>
+                            <div class="bj-box sec-box">
+                                <div class="box-lt">
+                                    <div class="list-box long">
+                                        <div class="list-tit">知名白酒品牌</div>
+                                        <div class="list-msg" id="list-msg">
+                                            <a href="javascript:void(0)" class="clearBorder color3">茅台</a>
+                                            <a href="javascript:void(0)">五粮液</a>
+                                            <a href="javascript:void(0)" class="color1">剑南春</a>
+                                            <a href="javascript:void(0)" class="color1">泸州老窖</a>
+                                            <a href="javascript:void(0)" class="color2">郎酒</a>
+                                            <a href="javascript:void(0)" class="color2">洋河</a>
+                                            <a href="javascript:void(0)">汾酒</a>
+                                            <a href="javascript:void(0)" class="color1">酒鬼</a>
+                                            <a href="javascript:void(0)" class="color1">水井坊</a>
+                                            <a href="javascript:void(0)" class="color2">习酒</a>
+                                            <a href="javascript:void(0)" class="color2">舒心</a>
+                                            <a href="javascript:void(0)">珍酒</a>
+                                            <a href="javascript:void(0)" class="color1">古井贡酒</a>
+                                            <a href="javascript:void(0)" class="color1">董酒</a>
+                                            <a href="javascript:void(0)" class="color2">西凤</a>
+                                            <a href="javascript:void(0)" class="color2">舍得</a>
+                                            <a href="javascript:void(0)">牛栏山</a>
+                                            <a href="javascript:void(0)" class="color1">四特</a>
+                                            <a href="javascript:void(0)" class="color1">钓鱼台</a>
+                                            <a href="javascript:void(0)" class="color2">国台</a>
+                                            <a href="javascript:void(0)" class="color2">杜康</a>
+                                            <a href="javascript:void(0)">口子窖</a>
+                                            <a href="javascript:void(0)" class="color1">小糊涂仙</a>
+                                            <a href="javascript:void(0)" class="color1">迎驾</a>
+                                            <a href="javascript:void(0)" class="color2">双沟</a>
+                                            <a href="javascript:void(0)" class="color2">全兴</a>
+                                            <a href="javascript:void(0)" class="color1">更多</a>
+                                        </div>
+                                    </div>
+                                    <div class="list-box long">
+                                        <div class="list-tit">地域白酒品牌</div>
+                                        <div class="list-msg" id="list-msg">
+                                            <a href="javascript:void(0)" class="clearBorder">金六福</a>
+                                            <a href="javascript:void(0)" class="color3">白云边</a>
+                                            <a href="javascript:void(0)" class="color1">太白酒</a>
+                                            <a href="javascript:void(0)" class="color3">黄鹤楼</a>
+                                            <a href="javascript:void(0)" class="color1">天下福</a>
+                                            <a href="javascript:void(0)" class="color3">苏酒</a>
+                                            <a href="javascript:void(0)" class="color1">红星</a>
+                                            <a href="javascript:void(0)" class="color3">孔府家</a>
+                                            <a href="javascript:void(0)" class="color3">扳倒井</a>
+                                            <a href="javascript:void(0)" class="color1">台湾高粱酒</a>
+                                            <a href="javascript:void(0)" class="color1">更多</a>
+                                        </div>
+                                    </div>
+                                    <div class="list-box short">
+                                        <div class="list-tit">香型</div>
+                                        <div class="list-msg" id="list-msg">
+                                            <a href="javascript:void(0)" class="color1 clearBorder">酱香型</a>
+                                            <a href="javascript:void(0)" class="color1">浓香型</a>
+                                            <a href="javascript:void(0)" class="">清香型</a>
+                                            <a href="javascript:void(0)" class="color1">馥郁香型</a>
+                                            <a href="javascript:void(0)" class="">兼香型</a>
+                                            <a href="javascript:void(0)" class="">特香型</a>
+                                            <a href="javascript:void(0)" class="color1">芝麻香型</a>
+                                            <a href="javascript:void(0)" class="">凤香型</a>
+                                        </div>
+                                    </div>
+                                    <div class="list-box short">
+                                        <div class="list-tit">贵州老八大名酒</div>
+                                        <div class="list-msg" id="list-msg">
+                                            <a href="javascript:void(0)" class="clearBorder clolor3">鸭溪窖</a>
+                                            <a href="javascript:void(0)" class="color1">安酒</a>
+                                            <a href="javascript:void(0)" class="color1">平坝窖酒</a>
+                                            <a href="javascript:void(0)" class="">筑春</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box-rt">
+                                    <div class="itemicon-box">
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000017.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000018.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000019.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000020.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000021.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000022.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000023.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000024.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000025.jpg" alt=""></a>
+                                    </div>
+                                    <div class="itemicon-img"><img src="./images/ia_300000026.jpg" alt=""></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="ptj-on"><a href="javascript:void(0)"><i class="iconfont icon-jiu"></i> 葡萄酒<span>&gt;</span></a>
+                            <div class="ptj-box sec-box">
+                                <div class="box-lt">
+                                    <div class="list-box long">
+                                        <div class="list-tit">知名品牌</div>
+                                        <div class="list-msg" id="list-msg">
+                                            <a href="javascript:void(0)" class="clearBorder color3">奔富</a>
+                                            <a href="javascript:void(0)">拉菲</a>
+                                            <a href="javascript:void(0)" class="color1">黄尾袋鼠</a>
+                                            <a href="javascript:void(0)" class="color1">红魔鬼</a>
+                                            <a href="javascript:void(0)" class="color2">精品酒</a>
+                                            <a href="javascript:void(0)" class="color2">卡斯特</a>
+                                            <a href="javascript:void(0)">长城</a>
+                                            <a href="javascript:void(0)" class="color1">黄轩</a>
+                                            <a href="javascript:void(0)" class="color1">法比纳古堡</a>
+                                            <a href="javascript:void(0)" class="color2">杰卡斯</a>
+                                            <a href="javascript:void(0)" class="color2">王朝</a>
+                                            <a href="javascript:void(0)">香格里拉</a>
+                                            <a href="javascript:void(0)" class="color1">威龙</a>
+                                            <a href="javascript:void(0)" class="color1">帝力</a>
+                                            <a href="javascript:void(0)" class="color2">张裕</a>
+                                            <a href="javascript:void(0)" class="color2">更多</a>
+                                        </div>
+                                    </div>
+                                    <div class="list-box short">
+                                        <div class="list-tit">店长推荐</div>
+                                        <div class="list-msg" id="list-msg">
+                                            <a href="javascript:void(0)" class="clearBorder clolor1">1855年列级名庄</a>
+                                            <a href="javascript:void(0)" class="color1">中级庄</a>
+                                            <a href="javascript:void(0)" class="">精品酒</a>
+                                            <a href="javascript:void(0)" class="">拉菲专区</a>
+                                            <a href="javascript:void(0)" class="">奔富专区</a>
+                                            <a href="javascript:void(0)" class="color1">更多</a>
+                                        </div>
+                                    </div>
+                                    <div class="list-box short">
+                                        <div class="list-tit">类别</div>
+                                        <div class="list-msg" id="list-msg">
+                                            <a href="javascript:void(0)" class="clearBorder clolor3">红葡萄酒</a>
+                                            <a href="javascript:void(0)" class="color1">白葡萄酒</a>
+                                            <a href="javascript:void(0)" class="color1">桃红葡萄酒</a>
+                                            <a href="javascript:void(0)" class="color2">起泡酒</a>
+                                        </div>
+                                    </div>
+                                    <div class="list-box long">
+                                        <div class="list-tit">国家</div>
+                                        <div class="list-msg" id="list-msg">
+                                            <a href="javascript:void(0)" class="color1 clearBorder">中国</a>
+                                            <a href="javascript:void(0)" class="color1">澳大利亚</a>
+                                            <a href="javascript:void(0)" class="">意大利</a>
+                                            <a href="javascript:void(0)" class="">德国</a>
+                                            <a href="javascript:void(0)" class="color1">西班牙</a>
+                                            <a href="javascript:void(0)" class="">智利</a>
+                                            <a href="javascript:void(0)" class="">南非</a>
+                                            <a href="javascript:void(0)" class="color1">法国</a>
+                                            <a href="javascript:void(0)" class="">美国</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box-rt">
+                                    <div class="itemicon-box">
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000028.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000029.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000030.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000031.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000032.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000033.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000034.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000035.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000036.jpg" alt=""></a>
+                                    </div>
+                                    <div class="itemicon-img"><img src="./images/ia_300000037.jpg" alt=""></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="yj-con"><a href="javascript:void(0)"><i class="iconfont icon-icon-test"></i> 洋酒<span>&gt;</span></a>
+                            <div class="yj-box sec-box">
+                                <div class="box-lt">
+                                    <div class="list-box long">
+                                        <div class="list-tit">品牌</div>
+                                        <div class="list-msg" id="list-msg">
+                                            <a href="javascript:void(0)" class="clearBorder color3">尊尼获加</a>
+                                            <a href="javascript:void(0)" class="color1">芝华士</a>
+                                            <a href="javascript:void(0)" class="color1">杰克丹尼</a>
+                                            <a href="javascript:void(0)" class="">人头马</a>
+                                            <a href="javascript:void(0)" class="">马爹利</a>
+                                            <a href="javascript:void(0)" class="color1">轩尼诗</a>
+                                            <a href="javascript:void(0)" class="">夜线</a>
+                                            <a href="javascript:void(0)" class="">格兰菲迪</a>
+                                            <a href="javascript:void(0)" class="color1">三得利</a>
+                                            <a href="javascript:void(0)" class="color3">帝魔</a>
+                                            <a href="javascript:void(0)" class="">吉拉</a>
+                                            <a href="javascript:void(0)" class="">培恩</a>
+                                            <a href="javascript:void(0)" class="">瑞典绝对</a>
+                                            <a href="javascript:void(0)" class="color1">百龄坛</a>
+                                            <a href="javascript:void(0)" class="">更多</a>
+                                        </div>
+                                    </div>
+                                    <div class="list-box long">
+                                        <div class="list-tit">品类</div>
+                                        <div class="list-msg" id="list-msg">
+                                            <a href="javascript:void(0)" class="clearBorder color1">白兰地 Brandy</a>
+                                            <a href="javascript:void(0)" class="color1">调和威士忌</a>
+                                            <a href="javascript:void(0)" class="">伏特加 Vodka</a>
+                                            <a href="javascript:void(0)" class="">朗姆酒 Rum</a>
+                                            <a href="javascript:void(0)" class="">金酒 Gin</a>
+                                            <a href="javascript:void(0)" class="">利口酒 Liqueur</a>
+                                            <a href="javascript:void(0)" class="color1">单一麦芽威士忌</a>
+                                            <a href="javascript:void(0)" class="color1">龙舌兰 Tequila</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box-rt">
+                                    <div class="itemicon-box">
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000039.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000040.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000041.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000042.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000043.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000044.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000045.jpg" alt=""></a>
+                                    </div>
+                                    <div class="itemicon-img"><img src="./images/ia_300000046.jpg" alt=""></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="hj-on"><a href="javascript:void(0)"><i class="iconfont icon-jiu1"></i> 黄酒<span>&gt;</span></a>
+                            <div class="hj-box sec-box">
+                                <div class="box-lt">
+                                    <div class="list-box long">
+                                        <div class="list-tit">品牌</div>
+                                        <div class="list-msg" id="list-msg">
+                                            <a href="javascript:void(0)" class="clearBorder color1">古越龙山</a>
+                                            <a href="javascript:void(0)" class="color1">女儿红</a>
+                                            <a href="javascript:void(0)" class="color1">同里红</a>
+                                            <a href="javascript:void(0)" class="">和酒</a>
+                                            <a href="javascript:void(0)" class="color1">会稽山</a>
+                                            <a href="javascript:void(0)" class="">塔牌</a>
+                                            <a href="javascript:void(0)" class="">钱塘人家</a>
+                                            <a href="javascript:void(0)" class="color3">沙洲优黄</a>
+                                            <a href="javascript:void(0)" class="">石库门</a>
+                                            <a href="javascript:void(0)" class="color1">更多</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box-rt">
+                                    <div class="itemicon-box">
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000048.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000049.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000050.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000051.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000052.jpg" alt=""></a>
+                                    </div>
+                                    <div class="itemicon-img"><img src="./images/ia_300000053.jpg" alt=""></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="qj-on"><a href="javascript:void(0)"><i class="iconfont icon-qingjiu"></i> 清酒<span>&gt;</span></a>
+                            <div class="qj-box sec-box">
+                                <div class="box-lt">
+                                    <div class="list-box long">
+                                        <div class="list-tit">清酒</div>
+                                        <div class="list-msg" id="list-msg">
+                                            <a href="javascript:void(0)" class="clearBorder color1">一本义</a>
+                                            <a href="javascript:void(0)">菊正宗</a>
+                                            <a href="javascript:void(0)" class="">日本盛</a>
+                                            <a href="javascript:void(0)" class="color1">月桂冠</a>
+                                            <a href="javascript:void(0)" class="color1">松竹梅</a>
+                                            <a href="javascript:void(0)" class="color1">富之山</a>
+                                            <a href="javascript:void(0)" class="color1">天下平和鬼</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box-rt">
+                                    <div class="itemicon-box">
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000055.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000056.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000057.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000058.jpg" alt=""></a>
+                                    </div>
+                                    <div class="itemicon-img"><img src="./images/ia_300000059.jpg" alt=""></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="pj-on"><a href="javascript:void(0)"><i class="iconfont icon-pijiu"></i> 啤酒<span>&gt;</span></a>
+                            <div class="pj-box sec-box">
+                                <div class="box-lt">
+                                    <div class="list-box long">
+                                        <div class="list-tit">品牌</div>
+                                        <div class="list-msg" id="list-msg">
+                                            <a href="javascript:void(0)" class="clearBorder">福佳</a>
+                                            <a href="javascript:void(0)" class="color1">科罗娜</a>
+                                            <a href="javascript:void(0)" class="color1">1664</a>
+                                            <a href="javascript:void(0)" class="">乌苏</a>
+                                            <a href="javascript:void(0)" class="">健力士</a>
+                                            <a href="javascript:void(0)" class="color1">青岛</a>
+                                            <a href="javascript:void(0)" class="color1">百威</a>
+                                            <a href="javascript:void(0)" class="color1">凯撒</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box-rt">
+                                    <div class="itemicon-box">
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000061.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000062.jpg" alt=""></a>
+                                        <a href="javascript:void(0);"><img src="./images/ia_300000063.jpg" alt=""></a>
+                                    </div>
+                                    <div class="itemicon-img"><img src="./images/ia_300000064.jpg" alt=""></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="jjzb"><a href="javascript:void(0)"><i class="iconfont icon-qingjiu"></i> 酒具周边<span>&gt;</span></a>
+                            <div class="jj-box sec-box">
+                                <div class="box-lt">
+                                    <div class="list-box long">
+                                        <div class="list-tit">分类</div>
+                                        <div class="list-msg" id="list-msg">
+                                            <a href="javascript:void(0)" class="clearBorder color1">酒杯</a>
+                                            <a href="javascript:void(0)" class="color1">酒刀</a>
+                                            <a href="javascript:void(0)" class="color3">醒酒器</a>
+                                            <a href="javascript:void(0)" class="">书籍</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="box-rt">
+                                    <div class="itemicon-box">
+
+                                    </div>
+                                    <div class="itemicon-img"></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="javascript:void(0)"><i class="iconfont icon-zan"></i> 新品<span>&gt;</span></a>
+                        </li>
+                        <li><a href="javascript:void(0)"><i class="iconfont icon-lingdang"></i> 清仓<span>&gt;</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="index.html">首页</a></li>
+                <li class="hotBg"><a href="javascript:void(0)">特卖会</a></li>
+                <li><a href="javascript:void(0)">跨境购</a></li>
+                <li><a href="javascript:void(0)">居酒屋</a></li>
+                <li><a href="javascript:void(0)">商家采销</a></li>
+                <li><a href="javascript:void(0)">高端收藏</a></li>
+                <li><a href="javascript:void(0)">茅台年份酒</a></li>
+                <li><a href="javascript:void(0)">一件定制</a></li>
+            </ul>
+            <div class="fr">
+                <a href=""><img src="./images/gr.gif" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <!-- 购买区域 -->
+    <div class="itemshow">
+
+    </div>
+
+    <div class="itemdetail">
+        <div class="detailtit">
+            <span id="twxq">图文详情</span>
+            <a href="#pjxdBox"><span id="jypj">酒友评价</span></a>
+        </div>
+        <div class="itemsepc">
+            <span class="pp"><em></em>品牌：茅台</span>
+            <span class="spbh"><em></em>商品编号：6902952889174</span>
+            <span class="jhl"><em></em>净含量：500ml</span>
+            <span class="ds"><em></em>度数：50度以上</span>
+            <span class="std"><em></em>手提袋：每购买2瓶，赠送原厂手提袋1个</span>
+            <span class="xx"><em></em>香型：酱香型</span>
+            <span class="sych"><em></em>箱规：其他</span>
+            <span class="gg"><em></em>规格：单瓶</span>
+        </div>
+        <div class="picdetai">
+
+        </div>
+    </div>
+    <div class="itempjbox">
+        <div class="itempjcon">
+            <img src="./images/renjiu_d5.jpg" alt="">
+        </div>
+    </div>
+    <div class="itempjbox">
+        <div class="pjtitlebox">
+            <div class="pjbfbtbox">
+                <span class="sppj">商品评价</span><br />
+                <div class="emptybox">
+                    <div class="fillline"></div>
+                </div>
+                <span class="hpbfb"><em>96%</em><span>好评</span></span><br />
+                <span class="pjnum" id="pjnum">共446条评价</span>
+            </div>
+            <div class="bqbox">
+                <span class="djrw">大家认为</span><br />
+                <span class="nobqnote">暂无标签，快来分享下你的使用心得吧</span>
+            </div>
+            <div class="pjrule">
+                <br />
+                <span class="sdnote">有晒单的评价将获得50积分</span><br />
+                <a href="#" id="jfgzsm">积分规则</a>
+            </div>
+        </div>
+        <div class="pjsel">
+            <span class="select tab_item" id="qbpj">全部评价<em id="qbpj_em">446</em></span>
+            <span class="tab_item" id="sd">晒单<em id="sd_em">23</em></span>
+        </div>
+        <div class="pjxdbox" id="pjxdBox">
+            <div class="listtitle">
+                <span>评价心得</span>
+                <span>满意度</span>
+                <span>评价用户</span>
+            </div>
+            <ul class="pjlistbox active_tit">
+                <li>
+                    <span class="pjnr">每年都会买好多的酒，有些用来送礼有些用来收藏，喝酒是一种心情，就如同看书一样，品味生活品味五彩芳华！</span>
+                    <img src="./images/detail_wuxin.png" alt="">
+                    <span class="yh">
+                            <em>银牌酒友</em>
+                        <br>
+                        <em>137***5575</em>
+                        <br>
+                        <em>2020-04-16</em>
+                        </span>
+                </li>
+                <li>
+                    <span class="pjnr">酒的品相很好，无漏酒。虽然物流很慢，从上海到宿迁路上走了8天，还好酒无破损。购酒网的服务还是值得称道的。</span>
+                    <img src="./images/detail_wuxin.png" alt="">
+                    <span class="yh">
+                            <em>银牌酒友</em>
+                        <br>
+                        <em>139***6635</em>
+                        <br>
+                        <em>2020-02-25</em>
+                        </span>
+                </li>
+                <li>
+                    <span class="pjnr">第二次购买了，物有所值满意</span>
+                    <img src="./images/detail_wuxin.png" alt="">
+                    <span class="yh">
+                            <em>普通会员</em>
+                        <br>
+                        <em>157***6766</em>
+                        <br>
+                        <em>2020-06-24</em>
+                        </span>
+                </li>
+                <li>
+                    <span class="pjnr">酒水包装比以前改进较大，非常好，给购酒网点个赞。酒水与宣传的一样，购酒网好。</span>
+                    <img src="./images/detail_wuxin.png" alt="">
+                    <span class="yh">
+                            <em>铜牌酒友</em>
+                        <br>
+                        <em>156***1577</em>
+                        <br>
+                        <em>2020-03-04</em>
+                        </span>
+                </li>
+                <li>
+                    <span class="pjnr">好酒。性价比高，品了再次购买，赞！</span>
+                    <img src="./images/detail_wuxin.png" alt="">
+                    <span class="yh">
+                            <em>银牌酒友</em>
+                        <br>
+                        <em>176***9089</em>
+                        <br>
+                        <em>2020-03-04</em>
+                        </span>
+                </li>
+            </ul>
+            <ul class="pjlistbox">
+                <li>
+                    <span class="pjnr">一个字：好，酒价最低，会经常在这买酒</span>
+                    <img src="./images/detail_wuxin.png" alt="">
+                    <span class="yh">
+                            <em>银牌酒友</em>
+                        <br>
+                        <em>198***8106</em>
+                        <br>
+                        <em>2020-05-11</em>
+                        </span>
+                </li>
+                <li>
+                    <span class="pjnr">包装完好，发货迅速，验证真品！</span>
+                    <img src="./images/detail_wuxin.png" alt="">
+                    <span class="yh">
+                            <em>金牌酒友</em>
+                        <br>
+                        <em>187***6439</em>
+                        <br>
+                        <em>2020-05-12</em>
+                        </span>
+                </li>
+                <li>
+                    <span class="pjnr">酒质不错 赶上活动价 屯了十几箱</span>
+                    <img src="./images/detail_wuxin.png" alt="">
+                    <span class="yh">
+                            <em>银牌酒友</em>
+                        <br>
+                        <em>154***4471</em>
+                        <br>
+                        <em>2020-06-25</em>
+                        </span>
+                </li>
+                <li>
+                    <span class="pjnr">618活动买的，价位很好。我老公喝过一次之后特别喜欢剑南春</span>
+                    <img src="./images/detail_wuxin.png" alt="">
+                    <span class="yh">
+                            <em>铜牌酒友</em>
+                        <br>
+                        <em>185***6668</em>
+                        <br>
+                        <em>2020-05-01</em>
+                        </span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <footer>
+        <div class="footerMid">
+            <div class="footerMid_t">
+                <div class="footer_tel"></div>
+                <a href="#" class="ftQuest">
+                    <img src="./images/ia_300000152.png" alt="">
+                </a>
+                <div class="qrCodeBox">
+                    <p class="fl"><br>超万平方米仓储体验店<br>上海松江区茂盛路202弄18号<br>客服邮箱:kf@goujiuwang.com</p>
+                    <div class="fr">
+                        <img src="./images/ia_300000153.jpg" alt=""><br> 扫码二维码&nbsp;&nbsp;享更多手机专享优惠
+                    </div>
+                </div>
+            </div>
+            <div class="footerMid_list">
+                <dl class="firstDl">
+                    <dt>新手指南</dt>
+                    <dd><a href="javascript:void(0)">用户协议</a></dd>
+                    <dd><a href="javascript:void(0)">常见问题</a></dd>
+                    <dd><a href="javascript:void(0)">网站购物流程</a></dd>
+                    <dd><a href="javascript:void(0)">会员制度</a></dd>
+                </dl>
+                <dl>
+                    <dt>如何付款</dt>
+                    <dd><a href="javascript:void(0)">如何付款</a></dd>
+                    <dd><a href="javascript:void(0)">发票制度说明</a></dd>
+                    <dd><a href="javascript:void(0)">电子券说明</a></dd>
+                    <dd><a href="javascript:void(0)">虚拟账户支付</a></dd>
+                </dl>
+                <dl>
+                    <dt>配送方式</dt>
+                    <dd><a href="javascript:void(0)">配送收费标准</a></dd>
+                    <dd><a href="javascript:void(0)">配送时间</a></dd>
+                    <dd><a href="javascript:void(0)">货到付款支持城市</a></dd>
+                    <dd><a href="javascript:void(0)">实体加盟服务商</a></dd>
+                </dl>
+                <dl>
+                    <dt>售后服务</dt>
+                    <dd><a href="javascript:void(0)">如何办理退换货</a></dd>
+                    <dd><a href="javascript:void(0)">如何退换货</a></dd>
+                    <dd><a href="javascript:void(0)">联系客服</a></dd>
+                </dl>
+                <dl>
+                    <dt>关于我们</dt>
+                    <dd><a href="javascript:void(0)">了解购酒网</a></dd>
+                    <dd><a href="javascript:void(0)">联系我们</a></dd>
+                    <dd><a href="javascript:void(0)">隐私声明</a></dd>
+                    <dd><a href="javascript:void(0)">友情链接</a></dd>
+                </dl>
+                <dl class="lastDl">
+                    <dt>合作共赢</dt>
+                    <dd><a href="javascript:void(0)">品牌馆</a></dd>
+                    <dd><a href="javascript:void(0)">大客户采购</a></dd>
+                    <dd><a href="javascript:void(0)">网站推广</a></dd>
+                    <dd><a href="javascript:void(0)">供应商供货</a></dd>
+                    <dd><a href="javascript:void(0)">老酒鉴真及回购</a></dd>
+                </dl>
+            </div>
+        </div>
+    </footer>
+    <div id="copyRight">
+        <div class="copyRight">
+            <div class="tempWrap">
+                <ul>
+                    <li><a href="# ">酒水知识<span>|</span></a>
+                        <a href="# ">购酒论坛<span>|</span></a>
+                        <a href="# ">茅台<span>|</span></a>
+                        <a href="# ">中国酒投网<span>|</span></a>
+                        <a href="# ">9块9包邮<span>|</span></a>
+                        <a href="# ">酒水加盟<span>|</span></a>
+                        <a href="# ">品牌加盟网<span>|</span></a>
+                        <a href="# ">建材加盟<span>|</span></a>
+                        <a href="# ">烧酒网<span>|</span></a>
+                        <a href="# ">商机网<span>|</span></a>
+                        <a href="# ">广州房产信息网<span>|</span></a>
+                        <a href="# ">代理ip<span>|</span></a>
+                        <a href="# ">名鞋库<span>|</span></a>
+                        <a href="# ">隐形眼镜<span>|</span></a>
+                        <a href="# ">美酒网<span>|</span></a>
+                        <a href="# ">创业</a>
+                    </li>
+
+                </ul>
+            </div>
+            <p>Copyright® 2009-2020 gjw.com, All Rights Reserved 购酒网(上海)供应链管理有限公司 版权所有</p>
+            <div class="authentication">
+                <a href="#" class="beian"></a>
+                <a href="#" class="depart"></a>
+                <a href="#" class="gsxz"></a>
+                <a href="#" class="wgdg"></a>
+            </div>
+        </div>
+    </div>
+    <!-- 右侧导航 -->
+    <div id="RightNav">
+        <div class="rightFixedBar">
+            <a class="rb_btn" href="javascript:void(0)">
+                <div class="ft_wd iconBox">
+                    <em class="iconfont icon-wode"></em>
+                </div>
+                <div class="iconBox_tips">
+                    <span class="tips">用户中心</span>
+                    <span class="tips_arrow">◆</span>
+                </div>
+            </a>
+            <a class="rb_btn" href="shopCar.html">
+                <div class="footer_gwc iconBox">
+                    <em class="iconfont icon-gouwuche"></em><br>购
+                    <br>物<br>车
+                </div>
+            </a>
+            <a class="rb_btn" href="javascript:void(0)">
+                <div class="ft_yhq iconBox">
+                    <em class="iconfont icon-quan"></em>
+                </div>
+                <div class="iconBox_tips">
+                    <span class="tips">我的优惠券</span>
+                    <span class="tips_arrow">◆</span>
+                </div>
+            </a>
+            <a class="rb_btn" href="javascript:void(0)">
+                <div class="ft_sc iconBox">
+                    <em class="iconfont icon-shoucang"></em>
+                </div>
+                <div class="iconBox_tips">
+                    <span class="tips">我的收藏</span>
+                    <span class="tips_arrow">◆</span>
+                </div>
+            </a>
+            <a class="rb_btn" href="javascript:void(0)">
+                <div class="ft_ewm iconBox">
+                    <em class="iconfont icon-ma"></em>
+                </div>
+                <div class="iconBox_tips navEwm">
+                    <img src="./images/ia_300000154.png" alt="">
+                </div>
+            </a>
+            <a class="rb_btn" href="javascript:void(0)">
+                <div class="ft_zan iconBox">
+                    <em class="iconfont icon-zan"></em>
+                </div>
+                <div class="iconBox_tips zanImg">
+                    <img src="./images/navZan.jpg" alt="">
+                </div>
+            </a>
+            <a class="rb_btn" href="javascript:void(0)">
+                <div class="ft_kf iconBox">
+                    <em class="iconfont icon-kefu"></em>
+                </div>
+                <div class="iconBox_tips">
+                    <span class="tips">在线客服</span>
+                    <span class="tips_arrow">◆</span>
+                </div>
+            </a>
+            <a class="rb_btn" href="javascript:void(0)">
+                <div class="ft_kf iconBox">
+                    <em class="iconfont icon-yonghufankui"></em>
+                </div>
+                <div class="iconBox_tips">
+                    <span class="tips">用户反馈</span>
+                    <span class="tips_arrow">◆</span>
+                </div>
+            </a>
+            <a class="rb_btn" id="backTop" href="javascript:void(0)">
+                <div class="ft_kf iconBox">
+                    <em class="iconfont icon-icon_huaban"></em>
+                </div>
+                <div class="iconBox_tips">
+                    <span class="tips">返回顶部</span>
+                    <span class="tips_arrow">◆</span>
+                </div>
+            </a>
+        </div>
+    </div>
+</body>
+<script src="./js/jquery-3.2.1.min.js"></script>
+<script src="./js/goods.js"></script>
+
+</html>

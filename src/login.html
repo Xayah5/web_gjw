@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户登录-购酒网</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/reg_com.css">
+    <link rel="stylesheet" href="./icon/iconfont.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="shortcut icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="./css/jquery.idcode.css">
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="./js/jquery.idcode.js"></script>
+    <script src="./js/layer/layer.js"></script>
+    <script src="./js/validation/jquery.validate.min.js"></script>
+    <script src="./js/axios.js"></script>
+    <script src="./js/login.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="headerWrap">
+            <a href="index.html" class="logo">
+                <img src="./images/logo1.jpg" alt="">
+            </a>
+            <div class="login_r">
+                您好，欢迎光临购酒网！&nbsp;
+                <a class="logo_help" href="#"><em class="iconfont icon-shezhi"></em>&nbsp;帮助</a>
+                <a class="logo_server" href="#"><em class="iconfont icon-wode"></em>&nbsp;在线客服</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="mainWrap">
+            <div class="loginBox">
+                <div class="loginForm">
+                    <div class="loginTit">购酒网会员登录</div>
+                    <form>
+                        <div class="textBox">
+                            <span><em class="iconfont icon-wode"></em></span>
+                            <input type="text" placeholder="账号" name="uname">
+                        </div>
+                        <div class="textBox">
+                            <span><em class="iconfont icon-suo"></em></span>
+                            <input type="password" placeholder="密码" name="upwd">
+                        </div>
+                        <div class="loginCode">
+                            <input type="text" id="Txtidcode" class="txtVerification" placeholder="验证码"><span id="idcode"></span>
+                        </div>
+                        <div class="autoLogin">
+                            <div class="fl">
+                                <input type="checkbox">自动登录
+                            </div>
+                            <a href="javascript:void(0)" class="fr">忘记密码</a>
+                        </div>
+                        <button id="loginBtn">登录</button>
+                    </form>
+                </div>
+                <hr>
+                <div class="otherLogin">
+                    使用合作账号登录<br>
+                    <a href="" class="qq"><img src="./images/qq.png" alt=""></a>
+                    <a href="" class="zfb"><img src="./images/zfb.png" alt=""></a>
+                    <a href="" class="weixin"><img src="./images/weixin.png" alt=""></a>
+                </div>
+                <a href="register.html" class="resg">注册新账号</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="links">
+            <a href="#">关于我们</a><span>|</span>
+            <a href="#">联系他们</a><span>|</span>
+            <a href="#">友情链接</a><span>|</span>
+            <a href="#">隐私声明</a>
+        </div>
+        <div class="copyRight">Copyright©2009-2020 gjw.com, All Rights Reserved 购酒网(上海)供应链管理有限公司 版权所有</div>
+    </footer>
+</body>
+
+</html>
